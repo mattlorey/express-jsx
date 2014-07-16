@@ -1,0 +1,30 @@
+{
+  "name": "express-jsx",
+  "version": "0.0.1",
+  "description": "Express middleware to transform jsx to js at on request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "jsx",
+    "middleware",
+    "react",
+    "transform"
+  ],
+  "author": "Matt Lorey <mattlorey@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react-tools": "^0.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattlorey/express-jsx"
+  },
+  "bugs": {
+    "url": "https://github.com/mattlorey/express-jsx/issues"
+  },
+  "homepage": "https://github.com/mattlorey/express-jsx"
+}
