@@ -14,16 +14,32 @@ update it if the modified time is greater on the .jsx file.
 
 ```javascript
 var express = require('express');
+var jsxCompile = require('express-jsx');
 ...
 var app = express();
 ...
 app.use(jsxCompile(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 ...
 
 ```
-
 ```html
 <script type="text/javascript" src="/path/to/.js"></script>
+```
+
+## Specify a destination directory for .js files
+
+If you would like to keep your .jsx and .js files separate, you may provide
+an optional destination directory for transformed .js files.
+```javascript
+...
+app.use(jsxCompile(path.join(__dirname, 'public'), {
+	dest: path.join(__dirname, 'compiled-js')
+}));
+
+// make static middleware aware of your destination directory
+app.use(express.static(path.join(__dirname, 'compiled-js')));
+app.use(express.static(path.join(__dirname, 'public')));
 ```
 
 ## License
