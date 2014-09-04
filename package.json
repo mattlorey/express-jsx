@@ -1,6 +1,6 @@
 {
   "name": "express-jsx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Express middleware to transform jsx to js at request time",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "react-tools": "^0.10.0",
-    "mkdirp": "^0.5.0",
+    "mkdirp": "^0.5.0"
   },
   "devDependencies": {},
   "repository": {
