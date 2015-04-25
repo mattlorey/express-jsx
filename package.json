@@ -1,6 +1,6 @@
 {
   "name": "express-jsx",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Express middleware to transform jsx to js at request time",
   "main": "index.js",
   "scripts": {
