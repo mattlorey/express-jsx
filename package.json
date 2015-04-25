@@ -16,7 +16,7 @@
   "author": "Matt Lorey <mattlorey@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "react-tools": "^0.10.0",
+    "react-tools": "^0.13.0",
     "mkdirp": "^0.5.0"
   },
   "devDependencies": {},
